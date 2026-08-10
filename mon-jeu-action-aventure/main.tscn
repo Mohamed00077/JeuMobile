@@ -1,12 +1,13 @@
 [gd_scene format=3 uid="uid://bub7oo6d28tqg"]
 
 [ext_resource type="Script" uid="uid://ji1rn6n8k7if" path="res://player.gd" id="1_ig7tw"]
+[ext_resource type="Script" uid="uid://dhhv3vfrsxlkn" path="res://joystick_gauche.gd" id="2_0xm2m"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_ql73s"]
 size = Vector3(20, 1, 20)
 
 [sub_resource type="BoxMesh" id="BoxMesh_ql73s"]
-size = Vector3(20, 1, 20)
+size = Vector3(50, 1, 50)
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_v0s4m"]
 
@@ -38,3 +39,30 @@ mesh = SubResource("CapsuleMesh_ql73s")
 [node name="Camera3D" type="Camera3D" parent="player" unique_id=720499973]
 transform = Transform3D(1, 0, 0, 0, 0.9396927, 0.34202015, 0, -0.34202015, 0.9396927, 0, 3, 6)
 current = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=2049259855]
+
+[node name="JoystickGauche" type="Control" parent="CanvasLayer" unique_id=416099278]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 50.0
+offset_top = 400.0
+offset_right = 250.0
+offset_bottom = 600.0
+script = ExtResource("2_0xm2m")
+
+[node name="Fond" type="ColorRect" parent="CanvasLayer/JoystickGauche" unique_id=875706253]
+layout_mode = 0
+offset_right = 200.0
+offset_bottom = 200.0
+mouse_filter = 2
+color = Color(1, 1, 1, 0.3137255)
+
+[node name="Bouton" type="ColorRect" parent="CanvasLayer/JoystickGauche" unique_id=1701020076]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 60.0
+offset_right = 140.0
+offset_bottom = 140.0
+mouse_filter = 2
+color = Color(1, 1, 1, 0.7058824)
