@@ -7,11 +7,14 @@
 size = Vector3(20, 1, 20)
 
 [sub_resource type="BoxMesh" id="BoxMesh_ql73s"]
-size = Vector3(50, 1, 50)
+size = Vector3(20, 1, 20)
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_v0s4m"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_ql73s"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ql73s"]
+size = Vector2(100, 100)
 
 [node name="Node3D" type="Node3D" unique_id=861570863]
 
@@ -66,3 +69,14 @@ offset_right = 140.0
 offset_bottom = 140.0
 mouse_filter = 2
 color = Color(1, 1, 1, 0.7058824)
+
+[node name="BoutonSaut" type="TouchScreenButton" parent="CanvasLayer" unique_id=2144265879]
+position = Vector2(950, 450)
+shape = SubResource("RectangleShape2D_ql73s")
+action = "ui_accept"
+
+[node name="SautVisuel" type="ColorRect" parent="CanvasLayer" unique_id=1781991002]
+offset_left = 900.0
+offset_top = 400.0
+offset_right = 1000.0
+offset_bottom = 500.0
