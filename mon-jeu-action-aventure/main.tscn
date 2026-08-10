@@ -25,10 +25,6 @@ mesh = SubResource("BoxMesh_ql73s")
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=548925222]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45, -45, 0)
 
-[node name="Camera3D" type="Camera3D" parent="." unique_id=720499973]
-transform = Transform3D(1, 0, 0, 0, 0.9396926, 0.34202012, 0, -0.34202012, 0.9396926, 0, 5, 10)
-current = true
-
 [node name="player" type="CharacterBody3D" parent="." unique_id=1342182708]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 script = ExtResource("1_ig7tw")
@@ -38,3 +34,7 @@ shape = SubResource("CapsuleShape3D_v0s4m")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="player" unique_id=1560917879]
 mesh = SubResource("CapsuleMesh_ql73s")
+
+[node name="Camera3D" type="Camera3D" parent="player" unique_id=720499973]
+transform = Transform3D(1, 0, 0, 0, 0.9396927, 0.34202015, 0, -0.34202015, 0.9396927, 0, 3, 6)
+current = true
