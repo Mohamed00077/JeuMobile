@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://ji1rn6n8k7if" path="res://player.gd" id="1_ig7tw"]
 [ext_resource type="Script" uid="uid://dhhv3vfrsxlkn" path="res://joystick_gauche.gd" id="2_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://du0nj3re7pydi" path="res://addons/kaykit_character_pack_adventures/Characters/gltf/Barbarian.glb" id="2_h2yge"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_ql73s"]
 size = Vector3(20, 1, 20)
@@ -10,8 +11,6 @@ size = Vector3(20, 1, 20)
 size = Vector3(20, 1, 20)
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_v0s4m"]
-
-[sub_resource type="CapsuleMesh" id="CapsuleMesh_ql73s"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ql73s"]
 size = Vector2(100, 100)
@@ -42,12 +41,12 @@ script = ExtResource("1_ig7tw")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="player" unique_id=1389660272]
 shape = SubResource("CapsuleShape3D_v0s4m")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="player" unique_id=1560917879]
-mesh = SubResource("CapsuleMesh_ql73s")
-
 [node name="Camera3D" type="Camera3D" parent="player" unique_id=720499973]
 transform = Transform3D(1, 0, 0, 0, 0.9396927, 0.34202015, 0, -0.34202015, 0.9396927, 0, 3, 6)
 current = true
+
+[node name="Barbarian" parent="player" unique_id=1132474094 instance=ExtResource("2_h2yge")]
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 0, 0, 0)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=2049259855]
 
