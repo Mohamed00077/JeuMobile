@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://ji1rn6n8k7if" path="res://player.gd" id="1_ig7tw"]
 [ext_resource type="Script" uid="uid://dhhv3vfrsxlkn" path="res://joystick_gauche.gd" id="2_0xm2m"]
 [ext_resource type="PackedScene" uid="uid://du0nj3re7pydi" path="res://addons/kaykit_character_pack_adventures/Characters/gltf/Barbarian.glb" id="2_h2yge"]
+[ext_resource type="PackedScene" uid="uid://crdi84xdq7aid" path="res://enemy.tscn" id="3_1bvp3"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_ql73s"]
 size = Vector3(20, 1, 20)
@@ -11,6 +12,9 @@ size = Vector3(20, 1, 20)
 size = Vector3(20, 1, 20)
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_v0s4m"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_ql73s"]
+radius = 1.5
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ql73s"]
 size = Vector2(100, 100)
@@ -109,6 +113,15 @@ transform = Transform3D(0.9997204, -1.4014349e-09, 0.023646597, 1.3934147e-09, 0
 
 [node name="chest" parent="player/Barbarian/Rig/Skeleton3D" index="3" unique_id=1948281227]
 transform = Transform3D(0.9962748, -5.1496167e-09, 0.08623532, 5.1304343e-09, 0.99999994, 4.4407705e-10, -0.08623532, 1.8800718e-15, 0.9962748, -2.9196552e-09, 0.9590293, 1.0685902e-15)
+
+[node name="ZoneAttaque" type="Area3D" parent="player" unique_id=1750946736]
+transform = Transform3D(-0.7535511, 0, -0.6573893, 0, 1, 0, 0.6573893, 0, -0.7535511, 0, 0, 1)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="player/ZoneAttaque" unique_id=1979333576]
+shape = SubResource("SphereShape3D_ql73s")
+
+[node name="Enemy" parent="." unique_id=663323640 instance=ExtResource("3_1bvp3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.7389698, 1.6016293, 4.630787)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=2049259855]
 

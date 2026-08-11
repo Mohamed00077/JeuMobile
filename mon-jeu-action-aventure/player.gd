@@ -21,9 +21,10 @@ func _physics_process(delta: float) -> void:
 		velocity.x = 0
 		velocity.z = 0
 		anim_player.play("1H_Melee_Attack_Chop")
+		deal_damage()
 
 	var input_dir := Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
-	
+
 	var joysticks = get_tree().get_nodes_in_group("joystick")
 	if joysticks.size() > 0:
 		var joystick_output = joysticks[0].output
@@ -31,7 +32,7 @@ func _physics_process(delta: float) -> void:
 			input_dir = joystick_output
 
 	var direction := (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
-	
+
 	# On bloque le déplacement pendant l'attaque
 	if not is_attacking:
 		if direction:
@@ -53,6 +54,14 @@ func _physics_process(delta: float) -> void:
 			anim_player.play("Running_B")
 		else:
 			anim_player.play("Idle")
+
+
+func deal_damage() -> void:
+	var zone_attaque = $ZoneAttaque
+	for body in zone_attaque.get_overlapping_bodies():
+		if body.has_method("take_damage"):
+			body.take_damage(10)
+
 
 func _on_attack_animation_finished(anim_name: String) -> void:
 	if anim_name == "1H_Melee_Attack_Chop":
