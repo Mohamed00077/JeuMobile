@@ -2,6 +2,8 @@ extends CharacterBody3D
 const SPEED = 5.0
 const JUMP_VELOCITY = 7.0
 const ROTATION_SPEED = 10.0
+@export var max_health: int = 100
+var current_health: int
 
 @onready var anim_player: AnimationPlayer = $Barbarian/AnimationPlayer
 @onready var barbarian: Node3D = $Barbarian
@@ -59,10 +61,27 @@ func _physics_process(delta: float) -> void:
 func deal_damage() -> void:
 	var zone_attaque = $ZoneAttaque
 	for body in zone_attaque.get_overlapping_bodies():
+		if body == self:
+			continue
 		if body.has_method("take_damage"):
 			body.take_damage(10)
-
 
 func _on_attack_animation_finished(anim_name: String) -> void:
 	if anim_name == "1H_Melee_Attack_Chop":
 		is_attacking = false
+
+func take_damage(amount: int) -> void:
+	current_health -= amount
+	print("Joueur touché ! PV restants : ", current_health)
+	if current_health <= 0:
+		die()
+
+func die() -> void:
+	print("Le joueur est mort !")
+	# Pour l'instant on remet juste le joueur à sa position de départ
+	global_position = Vector3(0, 1, 0)
+	current_health = max_health
+
+
+func _ready() -> void:
+	current_health = max_health
