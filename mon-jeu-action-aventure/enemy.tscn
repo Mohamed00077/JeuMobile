@@ -9,6 +9,9 @@
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_oeq8l"]
 albedo_color = Color(0.48802435, 0, 0.10034623, 1)
 
+[sub_resource type="SphereShape3D" id="SphereShape3D_ql73s"]
+radius = 1.2
+
 [node name="Enemy" type="CharacterBody3D" unique_id=663323640]
 script = ExtResource("1_7k104")
 
@@ -18,3 +21,8 @@ shape = SubResource("CapsuleShape3D_ql73s")
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=429289375]
 mesh = SubResource("CapsuleMesh_v0s4m")
 surface_material_override/0 = SubResource("StandardMaterial3D_oeq8l")
+
+[node name="ZoneAttaqueEnnemi" type="Area3D" parent="." unique_id=1601636577]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ZoneAttaqueEnnemi" unique_id=668411669]
+shape = SubResource("SphereShape3D_ql73s")

@@ -4,6 +4,7 @@ const JUMP_VELOCITY = 7.0
 const ROTATION_SPEED = 10.0
 @export var max_health: int = 100
 var current_health: int
+var is_invincible := false
 
 @onready var anim_player: AnimationPlayer = $Barbarian/AnimationPlayer
 @onready var barbarian: Node3D = $Barbarian
@@ -71,6 +72,8 @@ func _on_attack_animation_finished(anim_name: String) -> void:
 		is_attacking = false
 
 func take_damage(amount: int) -> void:
+	if is_invincible:
+		return
 	current_health -= amount
 	print("Joueur touché ! PV restants : ", current_health)
 	if current_health <= 0:
@@ -78,10 +81,11 @@ func take_damage(amount: int) -> void:
 
 func die() -> void:
 	print("Le joueur est mort !")
-	# Pour l'instant on remet juste le joueur à sa position de départ
 	global_position = Vector3(0, 1, 0)
 	current_health = max_health
-
+	is_invincible = true
+	await get_tree().create_timer(1.5).timeout
+	is_invincible = false
 
 func _ready() -> void:
 	current_health = max_health
