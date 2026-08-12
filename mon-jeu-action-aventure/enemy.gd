@@ -5,6 +5,7 @@ extends CharacterBody3D
 @export var detection_range: float = 8.0
 @export var attack_damage: int = 5
 @export var attack_cooldown: float = 1.5
+@onready var barre_vie: MeshInstance3D = $BarreVie
 
 var current_health: int
 var player: Node3D = null
@@ -50,6 +51,8 @@ func attack() -> void:
 func take_damage(amount: int) -> void:
 	current_health -= amount
 	print("Ennemi touché ! PV restants : ", current_health)
+	var ratio = clamp(float(current_health) / float(max_health), 0.0, 1.0)
+	barre_vie.scale.x = ratio
 	if current_health <= 0:
 		die()
 

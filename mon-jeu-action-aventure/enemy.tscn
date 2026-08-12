@@ -12,6 +12,23 @@ albedo_color = Color(0.48802435, 0, 0.10034623, 1)
 [sub_resource type="SphereShape3D" id="SphereShape3D_ql73s"]
 radius = 1.2
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_v0s4m"]
+shading_mode = 0
+albedo_color = Color(0.007230388, 0.18022293, 0.20983338, 0.78431374)
+billboard_mode = 1
+
+[sub_resource type="QuadMesh" id="QuadMesh_ql73s"]
+material = SubResource("StandardMaterial3D_v0s4m")
+size = Vector2(1, 0.15)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7k104"]
+shading_mode = 0
+albedo_color = Color(0.8627451, 0.11764706, 0.11764706, 1)
+
+[sub_resource type="QuadMesh" id="QuadMesh_v0s4m"]
+material = SubResource("StandardMaterial3D_7k104")
+size = Vector2(1, 0.15)
+
 [node name="Enemy" type="CharacterBody3D" unique_id=663323640]
 script = ExtResource("1_7k104")
 
@@ -26,3 +43,11 @@ surface_material_override/0 = SubResource("StandardMaterial3D_oeq8l")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="ZoneAttaqueEnnemi" unique_id=668411669]
 shape = SubResource("SphereShape3D_ql73s")
+
+[node name="BarreFond" type="MeshInstance3D" parent="." unique_id=1263175825]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, 0)
+mesh = SubResource("QuadMesh_ql73s")
+
+[node name="BarreVie" type="MeshInstance3D" parent="." unique_id=1788599030]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, 0.01)
+mesh = SubResource("QuadMesh_v0s4m")
