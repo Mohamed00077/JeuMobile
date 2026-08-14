@@ -2,7 +2,7 @@
 extends EditorScript
 
 const TILE_NAME := "hex_grass"
-const PATCH_SIZE := 5
+const PATCH_SIZE := 20
 
 
 func _run() -> void:
@@ -40,7 +40,7 @@ func _run() -> void:
 		for y in range(PATCH_SIZE):
 			grid.set_cell_HEX(x, y, tile_id)
 
-	print("Patch 5x5 d'herbe placé. Vérifiez l'alignement dans la vue 3D.")
+	print("Zone de %dx%d tuiles placée (%d hexagones)." % [PATCH_SIZE, PATCH_SIZE, PATCH_SIZE * PATCH_SIZE])
 
 
 func _list_names(lib: MeshLibrary) -> String:
