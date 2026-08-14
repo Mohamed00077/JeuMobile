@@ -5,6 +5,8 @@
 [ext_resource type="PackedScene" uid="uid://du0nj3re7pydi" path="res://addons/kaykit_character_pack_adventures/Characters/gltf/Barbarian.glb" id="2_h2yge"]
 [ext_resource type="PackedScene" uid="uid://crdi84xdq7aid" path="res://enemy.tscn" id="3_1bvp3"]
 [ext_resource type="Script" uid="uid://hvnfjx6gtcjr" path="res://canvas_layer.gd" id="4_lquwl"]
+[ext_resource type="MeshLibrary" uid="uid://ca3wjbnqtn4g4" path="res://assets/medieval_village/tiles_library.tres" id="6_7mycd"]
+[ext_resource type="Script" uid="uid://cl0im544lstpm" path="res://scripts/hex_map.gd" id="7_272bh"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_ql73s"]
 size = Vector3(20, 1, 20)
@@ -25,12 +27,6 @@ radius = 1.5
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ql73s"]
 size = Vector2(100, 100)
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_v0s4m"]
-size = Vector3(3, 1, 3)
-
-[sub_resource type="BoxMesh" id="BoxMesh_oeq8l"]
-size = Vector3(3, 1, 3)
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_oeq8l"]
 sky_top_color = Color(0.23529412, 0.3529412, 0.5882353, 1)
@@ -201,26 +197,17 @@ offset_right = 220.0
 offset_bottom = 45.0
 color = Color(0.8627451, 0.11764706, 0.11764706, 1)
 
-[node name="Plateforme1" type="StaticBody3D" parent="." unique_id=1906128665]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 1, -3)
-
-[node name="BoxShape3D" type="CollisionShape3D" parent="Plateforme1" unique_id=29888516]
-shape = SubResource("BoxShape3D_v0s4m")
-
-[node name="BoxMesh" type="MeshInstance3D" parent="Plateforme1" unique_id=1624248807]
-mesh = SubResource("BoxMesh_oeq8l")
-
-[node name="Plateforme2" type="StaticBody3D" parent="." unique_id=1619059106]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 1.8, -3)
-
-[node name="BoxShape3D" type="CollisionShape3D" parent="Plateforme2" unique_id=1300509959]
-shape = SubResource("BoxShape3D_v0s4m")
-
-[node name="BoxMesh" type="MeshInstance3D" parent="Plateforme2" unique_id=1439398901]
-mesh = SubResource("BoxMesh_oeq8l")
-
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=660719147]
 environment = SubResource("Environment_ql73s")
+
+[node name="VillageGridMap" type="GridMap" parent="." unique_id=1346202048]
+mesh_library = ExtResource("6_7mycd")
+cell_size = Vector3(1, 0.2, 1.732)
+data = {
+"cells": PackedInt32Array(393211, 65531, 0, 393211, 65532, 0, 393211, 65533, 0, 393211, 65534, 0, 393211, 65535, 0, 393211, 0, 0, 393211, 1, 0, 393211, 2, 0, 393211, 3, 0, 393211, 4, 0, 393212, 2, 0, 393212, 1, 0, 393212, 0, 0, 393212, 65535, 0, 393212, 65534, 0, 393211, 5, 0, 393212, 4, 0, 393212, 3, 0, 393212, 65533, 0, 393212, 65532, 0, 393212, 65531, 0, 393213, 65531, 0, 393213, 65532, 0, 393213, 65533, 0, 393213, 65534, 0, 393213, 65535, 0, 393213, 0, 0, 393213, 1, 0, 393213, 2, 0, 393213, 3, 0, 393213, 4, 0, 327682, 4, 1, 327682, 3, 1, 327682, 2, 1, 327682, 1, 1, 327682, 0, 1, 327682, 65535, 1, 327682, 65534, 1, 327682, 65533, 1, 327682, 65532, 1, 327682, 65531, 1, 327683, 65531, 1, 327684, 65531, 1, 327684, 65532, 1, 327684, 65533, 1, 327684, 65534, 1, 327684, 65535, 1, 327684, 0, 1, 327684, 1, 1, 327684, 2, 1, 327684, 3, 1, 327684, 4, 1, 327683, 4, 1, 327683, 3, 1, 327683, 2, 1, 327683, 1, 1, 327683, 0, 1, 327683, 65535, 1, 327683, 65534, 1, 327683, 65533, 1, 327683, 65532, 1, 393210, 0, 0, 393210, 65535, 0, 393210, 65534, 0, 393209, 65534, 0, 393209, 65533, 0, 393210, 65533, 0, 393210, 65532, 0, 393210, 65531, 0, 393210, 65530, 0, 393209, 65530, 0, 393209, 65531, 0, 393208, 65531, 0, 393208, 65532, 0, 393208, 65533, 0, 393209, 65535, 0, 393210, 1, 0, 393210, 2, 0, 393210, 3, 0, 393209, 1, 0, 393209, 0, 0, 393208, 65535, 0, 393208, 65534, 0, 393209, 65532, 0, 327685, 65531, 1, 327686, 65531, 1, 327687, 65532, 1, 327686, 65532, 1, 327686, 65533, 1, 327686, 65534, 1, 327686, 65535, 1, 327686, 0, 1, 327685, 65533, 1, 327685, 65532, 1, 327685, 65534, 1, 327685, 65535, 1, 327685, 0, 1, 327685, 1, 1, 327685, 2, 1, 327685, 3, 1, 327686, 3, 1, 327688, 2, 1, 327687, 2, 1, 327687, 1, 1, 327686, 1, 1, 327686, 2, 1, 327687, 0, 1, 327687, 65535, 1, 327687, 65534, 1, 327687, 65533, 1, 327688, 65533, 1, 393209, 4, 0, 393209, 3, 0, 393209, 2, 0, 393208, 0, 0, 393207, 0, 0, 393207, 65535, 0, 393207, 65534, 0, 393207, 65533, 0, 393207, 65532, 0, 393207, 65531, 0, 393207, 65530, 0, 393207, 65529, 0, 393207, 2, 0, 393207, 3, 0, 393208, 3, 0, 393208, 4, 0, 393208, 2, 0, 393208, 1, 0, 393207, 1, 0, 393206, 1, 0, 393206, 3, 0, 393206, 4, 0, 393207, 4, 0, 393207, 5, 0, 393208, 5, 0, 393209, 5, 0, 393210, 5, 0, 393210, 4, 0, 393206, 2, 0, 393205, 2, 0, 393205, 1, 0, 393205, 0, 0, 393206, 0, 0, 393206, 65535, 0, 393206, 65534, 0, 393206, 65533, 0, 393206, 65532, 0, 393206, 65531, 0, 393206, 65530, 0, 393208, 65530, 0, 393211, 65530, 0, 393212, 65530, 0, 393213, 65530, 0, 393212, 5, 0, 393213, 5, 0, 393206, 5, 0, 393205, 5, 0, 393205, 4, 0, 393205, 3, 0, 393204, 2, 0, 393204, 1, 0, 393204, 0, 0, 393204, 65535, 0, 393205, 65535, 0, 393205, 65534, 0, 393205, 65533, 0, 393205, 65532, 0, 393205, 65531, 0, 393205, 65530, 0, 393205, 65529, 0, 327669, 65534, 1, 65535, 0, 0, 0, 1, 0, 1, 2, 0, 2, 3, 0, 3, 4, 0, 1, 0, 0, 2, 1, 0, 3, 2, 0, 4, 3, 0, 5, 4, 0, 3, 0, 0, 4, 1, 0, 5, 2, 0, 6, 3, 0, 7, 4, 0, 5, 0, 0, 6, 1, 0, 7, 2, 0, 8, 3, 0, 9, 4, 0, 7, 0, 0, 8, 1, 0, 9, 2, 0, 10, 3, 0, 11, 4, 0, 327673, 0, 0, 327675, 2, 0, 327677, 2, 0)
+}
+script = ExtResource("7_272bh")
+metadata/_editor_floor_ = Vector3(0, 4, 0)
 
 [connection signal="animation_finished" from="player/Barbarian/AnimationPlayer" to="player" method="_on_attack_animation_finished"]
 
