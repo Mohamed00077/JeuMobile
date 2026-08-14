@@ -1,0 +1,240 @@
+[gd_scene format=3 uid="uid://du5lga6231iku"]
+
+[ext_resource type="PackedScene" uid="uid://bxpyst6eejmm7" path="res://assets/medieval_village/gltf/tiles/base/hex_grass.gltf" id="1_ywr82"]
+[ext_resource type="PackedScene" uid="uid://cucvt0bxcchyd" path="res://assets/medieval_village/gltf/tiles/base/hex_grass_bottom.gltf" id="2_xlq7d"]
+[ext_resource type="PackedScene" uid="uid://byh1djpf5axa4" path="res://assets/medieval_village/gltf/tiles/base/hex_grass_sloped_high.gltf" id="3_m65fc"]
+[ext_resource type="PackedScene" uid="uid://ddjjomu2l2xj5" path="res://assets/medieval_village/gltf/tiles/base/hex_grass_sloped_low.gltf" id="4_fydkn"]
+[ext_resource type="PackedScene" uid="uid://g8yy0kk38vq5" path="res://assets/medieval_village/gltf/tiles/base/hex_water.gltf" id="5_61sqc"]
+[ext_resource type="PackedScene" uid="uid://df08nk1yuwh5f" path="res://assets/medieval_village/gltf/tiles/coast/hex_coast_A.gltf" id="6_j411h"]
+[ext_resource type="PackedScene" uid="uid://8gh64mlcedpi" path="res://assets/medieval_village/gltf/tiles/coast/hex_coast_B.gltf" id="7_fa01b"]
+[ext_resource type="PackedScene" uid="uid://dj13lj14prxe" path="res://assets/medieval_village/gltf/tiles/coast/hex_coast_C.gltf" id="8_ubneq"]
+[ext_resource type="PackedScene" uid="uid://dtfy3ka3h2f2h" path="res://assets/medieval_village/gltf/tiles/coast/hex_coast_D.gltf" id="9_vvpdq"]
+[ext_resource type="PackedScene" uid="uid://bqnx07xlokjsc" path="res://assets/medieval_village/gltf/tiles/coast/hex_coast_E.gltf" id="10_muvis"]
+[ext_resource type="PackedScene" uid="uid://dqt01g2wxg4et" path="res://assets/medieval_village/gltf/tiles/coast/waterless/hex_coast_A_waterless.gltf" id="11_crlkk"]
+[ext_resource type="PackedScene" uid="uid://clg3sit41qjj0" path="res://assets/medieval_village/gltf/tiles/coast/waterless/hex_coast_B_waterless.gltf" id="12_l6unp"]
+[ext_resource type="PackedScene" uid="uid://d1e7rywm308ja" path="res://assets/medieval_village/gltf/tiles/coast/waterless/hex_coast_C_waterless.gltf" id="13_71wxj"]
+[ext_resource type="PackedScene" uid="uid://c4eugdvnylyn1" path="res://assets/medieval_village/gltf/tiles/coast/waterless/hex_coast_D_waterless.gltf" id="14_b2jxb"]
+[ext_resource type="PackedScene" uid="uid://c5spk03in5xqe" path="res://assets/medieval_village/gltf/tiles/coast/waterless/hex_coast_E_waterless.gltf" id="15_kur1r"]
+[ext_resource type="PackedScene" uid="uid://cvr4ygkgockj1" path="res://assets/medieval_village/gltf/tiles/rivers/hex_river_A.gltf" id="16_dq3uj"]
+[ext_resource type="PackedScene" uid="uid://dmq16cqqq7jus" path="res://assets/medieval_village/gltf/tiles/rivers/hex_river_A_curvy.gltf" id="17_lgkjh"]
+[ext_resource type="PackedScene" uid="uid://dt8ro3bosrmxt" path="res://assets/medieval_village/gltf/tiles/rivers/hex_river_B.gltf" id="18_68d5m"]
+[ext_resource type="PackedScene" uid="uid://7ltqrmtc4dum" path="res://assets/medieval_village/gltf/tiles/rivers/hex_river_C.gltf" id="19_x5x11"]
+[ext_resource type="PackedScene" uid="uid://vl6tw1tadyah" path="res://assets/medieval_village/gltf/tiles/rivers/hex_river_crossing_A.gltf" id="20_dswa4"]
+[ext_resource type="PackedScene" uid="uid://dcbo3emb3c8kd" path="res://assets/medieval_village/gltf/tiles/rivers/hex_river_crossing_B.gltf" id="21_033rh"]
+[ext_resource type="PackedScene" uid="uid://bg31n6emqup8j" path="res://assets/medieval_village/gltf/tiles/rivers/hex_river_D.gltf" id="22_j8tx6"]
+[ext_resource type="PackedScene" uid="uid://bgrygk04qgf40" path="res://assets/medieval_village/gltf/tiles/rivers/hex_river_E.gltf" id="23_xl6gk"]
+[ext_resource type="PackedScene" uid="uid://b4pagsfx1d3c6" path="res://assets/medieval_village/gltf/tiles/rivers/hex_river_F.gltf" id="24_dt2hw"]
+[ext_resource type="PackedScene" uid="uid://hislmtwupsok" path="res://assets/medieval_village/gltf/tiles/rivers/hex_river_G.gltf" id="25_o75q3"]
+[ext_resource type="PackedScene" uid="uid://bgve1y2oif6q0" path="res://assets/medieval_village/gltf/tiles/rivers/hex_river_H.gltf" id="26_8k1jw"]
+[ext_resource type="PackedScene" uid="uid://c7tv7iiwcoyj0" path="res://assets/medieval_village/gltf/tiles/rivers/hex_river_I.gltf" id="27_moayu"]
+[ext_resource type="PackedScene" uid="uid://i4s12dvc4dvf" path="res://assets/medieval_village/gltf/tiles/rivers/hex_river_J.gltf" id="28_j1xr2"]
+[ext_resource type="PackedScene" uid="uid://b4hw1fsss1b1a" path="res://assets/medieval_village/gltf/tiles/rivers/hex_river_K.gltf" id="29_wm54t"]
+[ext_resource type="PackedScene" uid="uid://bcsdefc5lp8rp" path="res://assets/medieval_village/gltf/tiles/rivers/hex_river_L.gltf" id="30_ot8yk"]
+[ext_resource type="PackedScene" uid="uid://ctuodp1ynghkp" path="res://assets/medieval_village/gltf/tiles/rivers/waterless/hex_river_A_curvy_waterless.gltf" id="31_mshix"]
+[ext_resource type="PackedScene" uid="uid://c7tabcy41j2ia" path="res://assets/medieval_village/gltf/tiles/rivers/waterless/hex_river_A_waterless.gltf" id="32_a660d"]
+[ext_resource type="PackedScene" uid="uid://bwrtxq5nmmbdx" path="res://assets/medieval_village/gltf/tiles/rivers/waterless/hex_river_B_waterless.gltf" id="33_qdqm4"]
+[ext_resource type="PackedScene" uid="uid://bx41ugdtm76gp" path="res://assets/medieval_village/gltf/tiles/rivers/waterless/hex_river_crossing_A_waterless.gltf" id="34_3oa0m"]
+[ext_resource type="PackedScene" uid="uid://5jmamhq0r5hl" path="res://assets/medieval_village/gltf/tiles/rivers/waterless/hex_river_crossing_B_waterless.gltf" id="35_y8l4i"]
+[ext_resource type="PackedScene" uid="uid://cxijnd321pw3w" path="res://assets/medieval_village/gltf/tiles/rivers/waterless/hex_river_C_waterless.gltf" id="36_1efst"]
+[ext_resource type="PackedScene" uid="uid://duj4i7n877toy" path="res://assets/medieval_village/gltf/tiles/rivers/waterless/hex_river_D_waterless.gltf" id="37_krf6p"]
+[ext_resource type="PackedScene" uid="uid://cbpt60v6r754q" path="res://assets/medieval_village/gltf/tiles/rivers/waterless/hex_river_E_waterless.gltf" id="38_mnwas"]
+[ext_resource type="PackedScene" uid="uid://dbel3uqoamkpo" path="res://assets/medieval_village/gltf/tiles/rivers/waterless/hex_river_F_waterless.gltf" id="39_wt02s"]
+[ext_resource type="PackedScene" uid="uid://b7jh4if7wc4ob" path="res://assets/medieval_village/gltf/tiles/rivers/waterless/hex_river_G_waterless.gltf" id="40_jbaiy"]
+[ext_resource type="PackedScene" uid="uid://dpwq5mxs3w6gk" path="res://assets/medieval_village/gltf/tiles/rivers/waterless/hex_river_H_waterless.gltf" id="41_mkmti"]
+[ext_resource type="PackedScene" uid="uid://bdpx3c3jvnpw3" path="res://assets/medieval_village/gltf/tiles/rivers/waterless/hex_river_I_waterless.gltf" id="42_g3e7e"]
+[ext_resource type="PackedScene" uid="uid://be1fr311n2qmq" path="res://assets/medieval_village/gltf/tiles/rivers/waterless/hex_river_J_waterless.gltf" id="43_ttx8g"]
+[ext_resource type="PackedScene" uid="uid://cg232ky3phtr8" path="res://assets/medieval_village/gltf/tiles/rivers/waterless/hex_river_K_waterless.gltf" id="44_ihsbj"]
+[ext_resource type="PackedScene" uid="uid://bxgte56hqtcrv" path="res://assets/medieval_village/gltf/tiles/rivers/waterless/hex_river_L_waterless.gltf" id="45_8567g"]
+[ext_resource type="PackedScene" uid="uid://cp33giipktogm" path="res://assets/medieval_village/gltf/tiles/roads/hex_road_A.gltf" id="46_fn5et"]
+[ext_resource type="PackedScene" uid="uid://dektydur4bh3x" path="res://assets/medieval_village/gltf/tiles/roads/hex_road_A_sloped_high.gltf" id="47_hvwqf"]
+[ext_resource type="PackedScene" uid="uid://4dwqt88cwker" path="res://assets/medieval_village/gltf/tiles/roads/hex_road_A_sloped_low.gltf" id="48_gg7hn"]
+[ext_resource type="PackedScene" uid="uid://4n04lpcff0xb" path="res://assets/medieval_village/gltf/tiles/roads/hex_road_B.gltf" id="49_1s710"]
+[ext_resource type="PackedScene" uid="uid://b6a7ok2p3x0cf" path="res://assets/medieval_village/gltf/tiles/roads/hex_road_C.gltf" id="50_adv3s"]
+[ext_resource type="PackedScene" uid="uid://dkwd1nhullvhw" path="res://assets/medieval_village/gltf/tiles/roads/hex_road_D.gltf" id="51_5rkso"]
+[ext_resource type="PackedScene" uid="uid://dxwhbxmbp5r5l" path="res://assets/medieval_village/gltf/tiles/roads/hex_road_E.gltf" id="52_0gkd8"]
+[ext_resource type="PackedScene" uid="uid://j7u4ph6swkw5" path="res://assets/medieval_village/gltf/tiles/roads/hex_road_F.gltf" id="53_avd61"]
+[ext_resource type="PackedScene" uid="uid://dsqw4iut25owj" path="res://assets/medieval_village/gltf/tiles/roads/hex_road_G.gltf" id="54_21dll"]
+[ext_resource type="PackedScene" uid="uid://bivi3sub0k6x5" path="res://assets/medieval_village/gltf/tiles/roads/hex_road_H.gltf" id="55_nba8f"]
+[ext_resource type="PackedScene" uid="uid://ddy01jpewrghf" path="res://assets/medieval_village/gltf/tiles/roads/hex_road_I.gltf" id="56_pf6sf"]
+[ext_resource type="PackedScene" uid="uid://nc30sfdptakv" path="res://assets/medieval_village/gltf/tiles/roads/hex_road_J.gltf" id="57_qhuw4"]
+[ext_resource type="PackedScene" uid="uid://xmrwy5us4rlh" path="res://assets/medieval_village/gltf/tiles/roads/hex_road_K.gltf" id="58_6a160"]
+[ext_resource type="PackedScene" uid="uid://bo1vff3bbi5ii" path="res://assets/medieval_village/gltf/tiles/roads/hex_road_L.gltf" id="59_2ljpl"]
+
+[node name="TilesLibrary" type="Node3D" unique_id=173762287]
+
+[node name="hex_grass2" parent="." unique_id=744597741 instance=ExtResource("1_ywr82")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_grass_bottom2" parent="." unique_id=1907068164 instance=ExtResource("2_xlq7d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_grass_sloped_high2" parent="." unique_id=1467421787 instance=ExtResource("3_m65fc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_grass_sloped_low2" parent="." unique_id=232383846 instance=ExtResource("4_fydkn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_water2" parent="." unique_id=774407812 instance=ExtResource("5_61sqc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_coast_A2" parent="." unique_id=1790256200 instance=ExtResource("6_j411h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_coast_B2" parent="." unique_id=332283341 instance=ExtResource("7_fa01b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_coast_C2" parent="." unique_id=313508369 instance=ExtResource("8_ubneq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_coast_D2" parent="." unique_id=94473176 instance=ExtResource("9_vvpdq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_coast_E2" parent="." unique_id=2070457293 instance=ExtResource("10_muvis")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_coast_A_waterless2" parent="." unique_id=935520347 instance=ExtResource("11_crlkk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_coast_B_waterless2" parent="." unique_id=247973271 instance=ExtResource("12_l6unp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_coast_C_waterless2" parent="." unique_id=920116157 instance=ExtResource("13_71wxj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_coast_D_waterless2" parent="." unique_id=775191986 instance=ExtResource("14_b2jxb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_coast_E_waterless2" parent="." unique_id=1623696382 instance=ExtResource("15_kur1r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_A2" parent="." unique_id=920778078 instance=ExtResource("16_dq3uj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_A_curvy2" parent="." unique_id=154862866 instance=ExtResource("17_lgkjh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_B2" parent="." unique_id=337640724 instance=ExtResource("18_68d5m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_C2" parent="." unique_id=314965367 instance=ExtResource("19_x5x11")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_crossing_A2" parent="." unique_id=709276507 instance=ExtResource("20_dswa4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_crossing_B2" parent="." unique_id=1028897600 instance=ExtResource("21_033rh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_D2" parent="." unique_id=2025728313 instance=ExtResource("22_j8tx6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_E2" parent="." unique_id=1041313461 instance=ExtResource("23_xl6gk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_F2" parent="." unique_id=395622649 instance=ExtResource("24_dt2hw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_G2" parent="." unique_id=1307810239 instance=ExtResource("25_o75q3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_H2" parent="." unique_id=1640015980 instance=ExtResource("26_8k1jw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_I2" parent="." unique_id=2008663064 instance=ExtResource("27_moayu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_J2" parent="." unique_id=1383361168 instance=ExtResource("28_j1xr2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_K2" parent="." unique_id=337889571 instance=ExtResource("29_wm54t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_L2" parent="." unique_id=302131499 instance=ExtResource("30_ot8yk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_A_curvy_waterless2" parent="." unique_id=7032980 instance=ExtResource("31_mshix")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_A_waterless2" parent="." unique_id=1633950742 instance=ExtResource("32_a660d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_B_waterless2" parent="." unique_id=1816035637 instance=ExtResource("33_qdqm4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_crossing_A_waterless2" parent="." unique_id=1295962875 instance=ExtResource("34_3oa0m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_crossing_B_waterless2" parent="." unique_id=1519006753 instance=ExtResource("35_y8l4i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_C_waterless2" parent="." unique_id=93827788 instance=ExtResource("36_1efst")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_D_waterless2" parent="." unique_id=140216811 instance=ExtResource("37_krf6p")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_E_waterless2" parent="." unique_id=1841692879 instance=ExtResource("38_mnwas")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_F_waterless2" parent="." unique_id=77668194 instance=ExtResource("39_wt02s")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_G_waterless2" parent="." unique_id=1722625541 instance=ExtResource("40_jbaiy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_H_waterless2" parent="." unique_id=1263834997 instance=ExtResource("41_mkmti")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_I_waterless2" parent="." unique_id=802018544 instance=ExtResource("42_g3e7e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_J_waterless2" parent="." unique_id=2131847181 instance=ExtResource("43_ttx8g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_K_waterless2" parent="." unique_id=280320788 instance=ExtResource("44_ihsbj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_river_L_waterless2" parent="." unique_id=1820816522 instance=ExtResource("45_8567g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_road_A2" parent="." unique_id=249514657 instance=ExtResource("46_fn5et")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_road_A_sloped_high2" parent="." unique_id=593524943 instance=ExtResource("47_hvwqf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_road_A_sloped_low2" parent="." unique_id=400823588 instance=ExtResource("48_gg7hn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_road_B2" parent="." unique_id=1746071756 instance=ExtResource("49_1s710")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_road_C2" parent="." unique_id=1200135036 instance=ExtResource("50_adv3s")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_road_D2" parent="." unique_id=1550512992 instance=ExtResource("51_5rkso")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_road_E2" parent="." unique_id=598138345 instance=ExtResource("52_0gkd8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_road_F2" parent="." unique_id=1242672163 instance=ExtResource("53_avd61")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_road_G2" parent="." unique_id=1675945856 instance=ExtResource("54_21dll")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_road_H2" parent="." unique_id=1580361187 instance=ExtResource("55_nba8f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_road_I2" parent="." unique_id=11924320 instance=ExtResource("56_pf6sf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_road_J2" parent="." unique_id=7397230 instance=ExtResource("57_qhuw4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_road_K2" parent="." unique_id=244735969 instance=ExtResource("58_6a160")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)
+
+[node name="hex_road_L2" parent="." unique_id=1642319010 instance=ExtResource("59_2ljpl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3502188, 0, -0.35046053)

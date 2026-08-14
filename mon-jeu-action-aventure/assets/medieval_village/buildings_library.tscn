@@ -1,0 +1,328 @@
+[gd_scene format=3 uid="uid://gcrodsn02i68"]
+
+[ext_resource type="PackedScene" uid="uid://ncj28krgypxp" path="res://assets/medieval_village/gltf/buildings/blue/building_archeryrange_blue.gltf" id="1_pk3fl"]
+[ext_resource type="PackedScene" uid="uid://dqn1ulytw5m3l" path="res://assets/medieval_village/gltf/buildings/blue/building_barracks_blue.gltf" id="2_ip8pi"]
+[ext_resource type="PackedScene" uid="uid://xicuybmyy3jm" path="res://assets/medieval_village/gltf/buildings/blue/building_blacksmith_blue.gltf" id="3_ua304"]
+[ext_resource type="PackedScene" uid="uid://daubo01pmwthu" path="res://assets/medieval_village/gltf/buildings/blue/building_castle_blue.gltf" id="4_1mf5l"]
+[ext_resource type="PackedScene" uid="uid://bpesnbblheq3l" path="res://assets/medieval_village/gltf/buildings/blue/building_church_blue.gltf" id="5_vaktj"]
+[ext_resource type="PackedScene" uid="uid://cr2qjwmhlm6mx" path="res://assets/medieval_village/gltf/buildings/blue/building_home_A_blue.gltf" id="6_7fbr3"]
+[ext_resource type="PackedScene" uid="uid://c4owmsphn7a80" path="res://assets/medieval_village/gltf/buildings/blue/building_home_B_blue.gltf" id="7_6leq7"]
+[ext_resource type="PackedScene" uid="uid://bs6m8ggcw00do" path="res://assets/medieval_village/gltf/buildings/blue/building_lumbermill_blue.gltf" id="8_177k2"]
+[ext_resource type="PackedScene" uid="uid://b6su6nk15bxlr" path="res://assets/medieval_village/gltf/buildings/blue/building_market_blue.gltf" id="9_1mxsl"]
+[ext_resource type="PackedScene" uid="uid://b8utfupkn6ioa" path="res://assets/medieval_village/gltf/buildings/blue/building_mine_blue.gltf" id="10_ur7dt"]
+[ext_resource type="PackedScene" uid="uid://dx1awvklvghyi" path="res://assets/medieval_village/gltf/buildings/blue/building_tavern_blue.gltf" id="11_5qvul"]
+[ext_resource type="PackedScene" uid="uid://b53bep41u7yyw" path="res://assets/medieval_village/gltf/buildings/blue/building_tower_A_blue.gltf" id="12_4aa4m"]
+[ext_resource type="PackedScene" uid="uid://bdc5t58fobnok" path="res://assets/medieval_village/gltf/buildings/blue/building_tower_base_blue.gltf" id="13_r3ooh"]
+[ext_resource type="PackedScene" uid="uid://gernykhh1nkx" path="res://assets/medieval_village/gltf/buildings/blue/building_tower_B_blue.gltf" id="14_js2qs"]
+[ext_resource type="PackedScene" uid="uid://drx8y8rc8r2yg" path="res://assets/medieval_village/gltf/buildings/blue/building_tower_catapult_blue.gltf" id="15_fbyee"]
+[ext_resource type="PackedScene" uid="uid://dkfks5wvoo6mb" path="res://assets/medieval_village/gltf/buildings/blue/building_watermill_blue.gltf" id="16_c5gry"]
+[ext_resource type="PackedScene" uid="uid://ceewnntdranet" path="res://assets/medieval_village/gltf/buildings/blue/building_well_blue.gltf" id="17_mkrvk"]
+[ext_resource type="PackedScene" uid="uid://cajbvroommmdj" path="res://assets/medieval_village/gltf/buildings/blue/building_windmill_blue.gltf" id="18_dson6"]
+[ext_resource type="PackedScene" uid="uid://c3mfc8ig1x0xa" path="res://assets/medieval_village/gltf/buildings/green/building_archeryrange_green.gltf" id="19_nytth"]
+[ext_resource type="PackedScene" uid="uid://c2cad6p8ohd70" path="res://assets/medieval_village/gltf/buildings/green/building_barracks_green.gltf" id="20_ymqm8"]
+[ext_resource type="PackedScene" uid="uid://34iyppp7k5nv" path="res://assets/medieval_village/gltf/buildings/green/building_blacksmith_green.gltf" id="21_wfc01"]
+[ext_resource type="PackedScene" uid="uid://c01imf2wxhnlf" path="res://assets/medieval_village/gltf/buildings/green/building_castle_green.gltf" id="22_pclsa"]
+[ext_resource type="PackedScene" uid="uid://brrvq6a17v83h" path="res://assets/medieval_village/gltf/buildings/green/building_church_green.gltf" id="23_kpx3e"]
+[ext_resource type="PackedScene" uid="uid://6v50q64d20i1" path="res://assets/medieval_village/gltf/buildings/green/building_home_A_green.gltf" id="24_mah1c"]
+[ext_resource type="PackedScene" uid="uid://kw1jn2ufarpq" path="res://assets/medieval_village/gltf/buildings/green/building_home_B_green.gltf" id="25_s2dyk"]
+[ext_resource type="PackedScene" uid="uid://dxcvp53k82rl3" path="res://assets/medieval_village/gltf/buildings/green/building_lumbermill_green.gltf" id="26_b1qxg"]
+[ext_resource type="PackedScene" uid="uid://bcqn5g64m62qp" path="res://assets/medieval_village/gltf/buildings/green/building_market_green.gltf" id="27_wigie"]
+[ext_resource type="PackedScene" uid="uid://cg4dv71l88iqh" path="res://assets/medieval_village/gltf/buildings/green/building_mine_green.gltf" id="28_hk0ec"]
+[ext_resource type="PackedScene" uid="uid://byrfc1d8dyn4x" path="res://assets/medieval_village/gltf/buildings/green/building_tavern_green.gltf" id="29_f62ko"]
+[ext_resource type="PackedScene" uid="uid://bldm8kohslcbe" path="res://assets/medieval_village/gltf/buildings/green/building_tower_A_green.gltf" id="30_bnvpa"]
+[ext_resource type="PackedScene" uid="uid://d2eqws0w45qet" path="res://assets/medieval_village/gltf/buildings/green/building_tower_base_green.gltf" id="31_aywyj"]
+[ext_resource type="PackedScene" uid="uid://boi4d3if6syfk" path="res://assets/medieval_village/gltf/buildings/green/building_tower_B_green.gltf" id="32_7fp2p"]
+[ext_resource type="PackedScene" uid="uid://cbrbyk4c1nugt" path="res://assets/medieval_village/gltf/buildings/green/building_tower_catapult_green.gltf" id="33_c2mhs"]
+[ext_resource type="PackedScene" uid="uid://cbk4maxnk2vf6" path="res://assets/medieval_village/gltf/buildings/green/building_watermill_green.gltf" id="34_p757v"]
+[ext_resource type="PackedScene" uid="uid://p6om18wjpl5x" path="res://assets/medieval_village/gltf/buildings/green/building_well_green.gltf" id="35_scer6"]
+[ext_resource type="PackedScene" uid="uid://d1fcveq63ep3a" path="res://assets/medieval_village/gltf/buildings/green/building_windmill_green.gltf" id="36_c0ahu"]
+[ext_resource type="PackedScene" uid="uid://ciatjh316fo7w" path="res://assets/medieval_village/gltf/buildings/neutral/building_bridge_A.gltf" id="37_fd2dj"]
+[ext_resource type="PackedScene" uid="uid://cnhw5r210l2p0" path="res://assets/medieval_village/gltf/buildings/neutral/building_bridge_B.gltf" id="38_xf2x4"]
+[ext_resource type="PackedScene" uid="uid://bpi581xyxm0i6" path="res://assets/medieval_village/gltf/buildings/neutral/building_destroyed.gltf" id="39_jm6bo"]
+[ext_resource type="PackedScene" uid="uid://ey5852km3afx" path="res://assets/medieval_village/gltf/buildings/neutral/building_dirt.gltf" id="40_pml0p"]
+[ext_resource type="PackedScene" uid="uid://d12c74iwmuh0s" path="res://assets/medieval_village/gltf/buildings/neutral/building_grain.gltf" id="41_nk77f"]
+[ext_resource type="PackedScene" uid="uid://b4n1f5ug0rtka" path="res://assets/medieval_village/gltf/buildings/neutral/building_scaffolding.gltf" id="42_hos4v"]
+[ext_resource type="PackedScene" uid="uid://boyb8paeik6ws" path="res://assets/medieval_village/gltf/buildings/neutral/building_stage_A.gltf" id="43_q22lj"]
+[ext_resource type="PackedScene" uid="uid://cf17fci28hcgq" path="res://assets/medieval_village/gltf/buildings/neutral/building_stage_B.gltf" id="44_ar6dk"]
+[ext_resource type="PackedScene" uid="uid://csoochhkkk02c" path="res://assets/medieval_village/gltf/buildings/neutral/building_stage_C.gltf" id="45_genci"]
+[ext_resource type="PackedScene" uid="uid://cx8e5mmvxsurq" path="res://assets/medieval_village/gltf/buildings/red/building_archeryrange_red.gltf" id="46_ru43y"]
+[ext_resource type="PackedScene" uid="uid://dfd6uql0npike" path="res://assets/medieval_village/gltf/buildings/red/building_barracks_red.gltf" id="47_c0eq5"]
+[ext_resource type="PackedScene" uid="uid://5mjq7ig8o8s2" path="res://assets/medieval_village/gltf/buildings/red/building_blacksmith_red.gltf" id="48_inp2c"]
+[ext_resource type="PackedScene" uid="uid://qusqspxnck0x" path="res://assets/medieval_village/gltf/buildings/red/building_castle_red.gltf" id="49_00m5b"]
+[ext_resource type="PackedScene" uid="uid://cjkjauq2d70bd" path="res://assets/medieval_village/gltf/buildings/red/building_church_red.gltf" id="50_x6hih"]
+[ext_resource type="PackedScene" uid="uid://dm3shmn7b5yr7" path="res://assets/medieval_village/gltf/buildings/red/building_home_A_red.gltf" id="51_0aag8"]
+[ext_resource type="PackedScene" uid="uid://ting6e5b1snw" path="res://assets/medieval_village/gltf/buildings/red/building_home_B_red.gltf" id="52_preap"]
+[ext_resource type="PackedScene" uid="uid://dboks8gjb7ccf" path="res://assets/medieval_village/gltf/buildings/red/building_lumbermill_red.gltf" id="53_dfngb"]
+[ext_resource type="PackedScene" uid="uid://bu4pf7giwm2bn" path="res://assets/medieval_village/gltf/buildings/red/building_market_red.gltf" id="54_mmno0"]
+[ext_resource type="PackedScene" uid="uid://7dawtvtf4t5a" path="res://assets/medieval_village/gltf/buildings/red/building_mine_red.gltf" id="55_a2xaq"]
+[ext_resource type="PackedScene" uid="uid://c0cgg6wjk3b8p" path="res://assets/medieval_village/gltf/buildings/red/building_tavern_red.gltf" id="56_05bl0"]
+[ext_resource type="PackedScene" uid="uid://baj84mv3xqhb2" path="res://assets/medieval_village/gltf/buildings/red/building_tower_A_red.gltf" id="57_46pax"]
+[ext_resource type="PackedScene" uid="uid://c333qk2fg0icv" path="res://assets/medieval_village/gltf/buildings/red/building_tower_base_red.gltf" id="58_45tcm"]
+[ext_resource type="PackedScene" uid="uid://ct18nrrqphofq" path="res://assets/medieval_village/gltf/buildings/red/building_tower_B_red.gltf" id="59_gdxkx"]
+[ext_resource type="PackedScene" uid="uid://b1gdx8rbnfysp" path="res://assets/medieval_village/gltf/buildings/red/building_tower_catapult_red.gltf" id="60_1o8q2"]
+[ext_resource type="PackedScene" uid="uid://c61qdoa56jont" path="res://assets/medieval_village/gltf/buildings/red/building_watermill_red.gltf" id="61_pseon"]
+[ext_resource type="PackedScene" uid="uid://ynfwusa8rhll" path="res://assets/medieval_village/gltf/buildings/red/building_well_red.gltf" id="62_gmcug"]
+[ext_resource type="PackedScene" uid="uid://bib706r8yaaek" path="res://assets/medieval_village/gltf/buildings/red/building_windmill_red.gltf" id="63_mqj0r"]
+[ext_resource type="PackedScene" uid="uid://cl13lb186ada4" path="res://assets/medieval_village/gltf/buildings/yellow/building_archeryrange_yellow.gltf" id="64_0itxf"]
+[ext_resource type="PackedScene" uid="uid://2n48uoqn71ql" path="res://assets/medieval_village/gltf/buildings/yellow/building_barracks_yellow.gltf" id="65_e5s5f"]
+[ext_resource type="PackedScene" uid="uid://d2d7vi34vr5w4" path="res://assets/medieval_village/gltf/buildings/yellow/building_blacksmith_yellow.gltf" id="66_c4cir"]
+[ext_resource type="PackedScene" uid="uid://dddt0vbur0vl4" path="res://assets/medieval_village/gltf/buildings/yellow/building_castle_yellow.gltf" id="67_6j2o1"]
+[ext_resource type="PackedScene" uid="uid://c6icuf1shun6i" path="res://assets/medieval_village/gltf/buildings/yellow/building_church_yellow.gltf" id="68_33fbv"]
+[ext_resource type="PackedScene" uid="uid://del2xoxnjukvo" path="res://assets/medieval_village/gltf/buildings/yellow/building_home_A_yellow.gltf" id="69_6ssso"]
+[ext_resource type="PackedScene" uid="uid://dbdy7fehpp2y2" path="res://assets/medieval_village/gltf/buildings/yellow/building_home_B_yellow.gltf" id="70_00yy2"]
+[ext_resource type="PackedScene" uid="uid://donnic0yve4tp" path="res://assets/medieval_village/gltf/buildings/yellow/building_lumbermill_yellow.gltf" id="71_7h3yr"]
+[ext_resource type="PackedScene" uid="uid://cjqus47c1e27i" path="res://assets/medieval_village/gltf/buildings/yellow/building_market_yellow.gltf" id="72_2ytkv"]
+[ext_resource type="PackedScene" uid="uid://chuki71ed76kp" path="res://assets/medieval_village/gltf/buildings/yellow/building_mine_yellow.gltf" id="73_3rv61"]
+[ext_resource type="PackedScene" uid="uid://t838yfjo00si" path="res://assets/medieval_village/gltf/buildings/yellow/building_tavern_yellow.gltf" id="74_jappx"]
+[ext_resource type="PackedScene" uid="uid://m1orl0o6phal" path="res://assets/medieval_village/gltf/buildings/yellow/building_tower_A_yellow.gltf" id="75_vy5w7"]
+[ext_resource type="PackedScene" uid="uid://bk16oe6im26x5" path="res://assets/medieval_village/gltf/buildings/yellow/building_tower_base_yellow.gltf" id="76_430a6"]
+[ext_resource type="PackedScene" uid="uid://c0xi7ntovuaw1" path="res://assets/medieval_village/gltf/buildings/yellow/building_tower_B_yellow.gltf" id="77_drkx6"]
+[ext_resource type="PackedScene" uid="uid://cmynwktxbr4s6" path="res://assets/medieval_village/gltf/buildings/yellow/building_tower_catapult_yellow.gltf" id="78_yhnis"]
+[ext_resource type="PackedScene" uid="uid://de7lop31pfine" path="res://assets/medieval_village/gltf/buildings/yellow/building_watermill_yellow.gltf" id="79_xcjxk"]
+[ext_resource type="PackedScene" uid="uid://cxjtyeuxdj08p" path="res://assets/medieval_village/gltf/buildings/yellow/building_well_yellow.gltf" id="80_4u1rv"]
+[ext_resource type="PackedScene" uid="uid://ikcy3j6ignmt" path="res://assets/medieval_village/gltf/buildings/yellow/building_windmill_yellow.gltf" id="81_k0iop"]
+
+[node name="BuildingsLibrary" type="Node3D" unique_id=560795669]
+
+[node name="building_archeryrange_blue2" parent="." unique_id=120963807 instance=ExtResource("1_pk3fl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_barracks_blue2" parent="." unique_id=1548204918 instance=ExtResource("2_ip8pi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_blacksmith_blue2" parent="." unique_id=1828659764 instance=ExtResource("3_ua304")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_castle_blue2" parent="." unique_id=159127785 instance=ExtResource("4_1mf5l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_church_blue2" parent="." unique_id=812936661 instance=ExtResource("5_vaktj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_home_A_blue2" parent="." unique_id=203648461 instance=ExtResource("6_7fbr3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_home_B_blue2" parent="." unique_id=1395002954 instance=ExtResource("7_6leq7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_lumbermill_blue2" parent="." unique_id=899337482 instance=ExtResource("8_177k2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_market_blue2" parent="." unique_id=1753198831 instance=ExtResource("9_1mxsl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_mine_blue2" parent="." unique_id=631687591 instance=ExtResource("10_ur7dt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_tavern_blue2" parent="." unique_id=551635563 instance=ExtResource("11_5qvul")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_tower_A_blue2" parent="." unique_id=1770702052 instance=ExtResource("12_4aa4m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_tower_base_blue2" parent="." unique_id=795877230 instance=ExtResource("13_r3ooh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_tower_B_blue2" parent="." unique_id=387210334 instance=ExtResource("14_js2qs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_tower_catapult_blue2" parent="." unique_id=440421119 instance=ExtResource("15_fbyee")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_watermill_blue2" parent="." unique_id=73254633 instance=ExtResource("16_c5gry")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_well_blue2" parent="." unique_id=874282249 instance=ExtResource("17_mkrvk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_windmill_blue2" parent="." unique_id=1373873521 instance=ExtResource("18_dson6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_archeryrange_green2" parent="." unique_id=1965521668 instance=ExtResource("19_nytth")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_barracks_green2" parent="." unique_id=496114593 instance=ExtResource("20_ymqm8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_blacksmith_green2" parent="." unique_id=1348527291 instance=ExtResource("21_wfc01")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_castle_green2" parent="." unique_id=1975170766 instance=ExtResource("22_pclsa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_church_green2" parent="." unique_id=1076195302 instance=ExtResource("23_kpx3e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_home_A_green2" parent="." unique_id=199881172 instance=ExtResource("24_mah1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_home_B_green2" parent="." unique_id=67355656 instance=ExtResource("25_s2dyk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_lumbermill_green2" parent="." unique_id=1578153446 instance=ExtResource("26_b1qxg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_market_green2" parent="." unique_id=224220172 instance=ExtResource("27_wigie")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_mine_green2" parent="." unique_id=714188889 instance=ExtResource("28_hk0ec")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_tavern_green2" parent="." unique_id=683492003 instance=ExtResource("29_f62ko")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_tower_A_green2" parent="." unique_id=612494750 instance=ExtResource("30_bnvpa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_tower_base_green2" parent="." unique_id=812552001 instance=ExtResource("31_aywyj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_tower_B_green2" parent="." unique_id=748900078 instance=ExtResource("32_7fp2p")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_tower_catapult_green2" parent="." unique_id=1616181115 instance=ExtResource("33_c2mhs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_watermill_green2" parent="." unique_id=1779774081 instance=ExtResource("34_p757v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_well_green2" parent="." unique_id=1290664094 instance=ExtResource("35_scer6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_windmill_green2" parent="." unique_id=1107957697 instance=ExtResource("36_c0ahu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_bridge_A2" parent="." unique_id=1606788572 instance=ExtResource("37_fd2dj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_bridge_B2" parent="." unique_id=1756157773 instance=ExtResource("38_xf2x4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_destroyed2" parent="." unique_id=1232738086 instance=ExtResource("39_jm6bo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_dirt2" parent="." unique_id=78701524 instance=ExtResource("40_pml0p")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_grain2" parent="." unique_id=350122995 instance=ExtResource("41_nk77f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_scaffolding2" parent="." unique_id=1971614572 instance=ExtResource("42_hos4v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_stage_A2" parent="." unique_id=1045629412 instance=ExtResource("43_q22lj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_stage_B2" parent="." unique_id=1071540061 instance=ExtResource("44_ar6dk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_stage_C2" parent="." unique_id=1718952801 instance=ExtResource("45_genci")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_archeryrange_red2" parent="." unique_id=52938812 instance=ExtResource("46_ru43y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_barracks_red2" parent="." unique_id=156200274 instance=ExtResource("47_c0eq5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_blacksmith_red2" parent="." unique_id=1033976331 instance=ExtResource("48_inp2c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_castle_red2" parent="." unique_id=1416432839 instance=ExtResource("49_00m5b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_church_red2" parent="." unique_id=381421049 instance=ExtResource("50_x6hih")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_home_A_red2" parent="." unique_id=174211626 instance=ExtResource("51_0aag8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_home_B_red2" parent="." unique_id=2005459278 instance=ExtResource("52_preap")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_lumbermill_red2" parent="." unique_id=1804341872 instance=ExtResource("53_dfngb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_market_red2" parent="." unique_id=1155378410 instance=ExtResource("54_mmno0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_mine_red2" parent="." unique_id=1113757556 instance=ExtResource("55_a2xaq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_tavern_red2" parent="." unique_id=123329226 instance=ExtResource("56_05bl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_tower_A_red2" parent="." unique_id=1839417555 instance=ExtResource("57_46pax")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_tower_base_red2" parent="." unique_id=1933234255 instance=ExtResource("58_45tcm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_tower_B_red2" parent="." unique_id=1773209809 instance=ExtResource("59_gdxkx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_tower_catapult_red2" parent="." unique_id=55713339 instance=ExtResource("60_1o8q2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_watermill_red2" parent="." unique_id=510638112 instance=ExtResource("61_pseon")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_well_red2" parent="." unique_id=15058135 instance=ExtResource("62_gmcug")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_windmill_red2" parent="." unique_id=816595792 instance=ExtResource("63_mqj0r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_archeryrange_yellow2" parent="." unique_id=794205355 instance=ExtResource("64_0itxf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_barracks_yellow2" parent="." unique_id=424896897 instance=ExtResource("65_e5s5f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_blacksmith_yellow2" parent="." unique_id=806368241 instance=ExtResource("66_c4cir")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_castle_yellow2" parent="." unique_id=586072723 instance=ExtResource("67_6j2o1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_church_yellow2" parent="." unique_id=1957739982 instance=ExtResource("68_33fbv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_home_A_yellow2" parent="." unique_id=1625257020 instance=ExtResource("69_6ssso")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_home_B_yellow2" parent="." unique_id=548229499 instance=ExtResource("70_00yy2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_lumbermill_yellow2" parent="." unique_id=1244412193 instance=ExtResource("71_7h3yr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_market_yellow2" parent="." unique_id=774954678 instance=ExtResource("72_2ytkv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_mine_yellow2" parent="." unique_id=624473650 instance=ExtResource("73_3rv61")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_tavern_yellow2" parent="." unique_id=2060067773 instance=ExtResource("74_jappx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_tower_A_yellow2" parent="." unique_id=535482483 instance=ExtResource("75_vy5w7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_tower_base_yellow2" parent="." unique_id=70372295 instance=ExtResource("76_430a6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_tower_B_yellow2" parent="." unique_id=2129405492 instance=ExtResource("77_drkx6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_tower_catapult_yellow2" parent="." unique_id=64071662 instance=ExtResource("78_yhnis")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_watermill_yellow2" parent="." unique_id=1173697996 instance=ExtResource("79_xcjxk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_well_yellow2" parent="." unique_id=1502682787 instance=ExtResource("80_4u1rv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)
+
+[node name="building_windmill_yellow2" parent="." unique_id=714226918 instance=ExtResource("81_k0iop")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2171178, 0, -0.9193983)

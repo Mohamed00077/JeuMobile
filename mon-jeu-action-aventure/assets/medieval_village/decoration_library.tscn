@@ -1,0 +1,276 @@
+[gd_scene format=3 uid="uid://b4h03r66odk74"]
+
+[ext_resource type="PackedScene" uid="uid://b3pxairownmlg" path="res://assets/medieval_village/gltf/decoration/nature/cloud_big.gltf" id="1_64tjs"]
+[ext_resource type="PackedScene" uid="uid://c6rdy4c4kv71f" path="res://assets/medieval_village/gltf/decoration/nature/cloud_small.gltf" id="2_50mxb"]
+[ext_resource type="PackedScene" uid="uid://d10e2m7b7i4u2" path="res://assets/medieval_village/gltf/decoration/nature/hills_A.gltf" id="3_dvtoq"]
+[ext_resource type="PackedScene" uid="uid://cldy0uajscars" path="res://assets/medieval_village/gltf/decoration/nature/hills_A_trees.gltf" id="4_b28u7"]
+[ext_resource type="PackedScene" uid="uid://ertd3eadtbws" path="res://assets/medieval_village/gltf/decoration/nature/hills_B.gltf" id="5_mxa05"]
+[ext_resource type="PackedScene" uid="uid://k3osc56hnv74" path="res://assets/medieval_village/gltf/decoration/nature/hills_B_trees.gltf" id="6_5mfqb"]
+[ext_resource type="PackedScene" uid="uid://qs8ns2hadhnu" path="res://assets/medieval_village/gltf/decoration/nature/hills_C.gltf" id="7_xx5te"]
+[ext_resource type="PackedScene" uid="uid://bng3iofkyoe5y" path="res://assets/medieval_village/gltf/decoration/nature/hills_C_trees.gltf" id="8_ohnfp"]
+[ext_resource type="PackedScene" uid="uid://d1cxp4qikpjvg" path="res://assets/medieval_village/gltf/decoration/nature/hill_single_A.gltf" id="9_djpkc"]
+[ext_resource type="PackedScene" uid="uid://bw2hkwlfhragq" path="res://assets/medieval_village/gltf/decoration/nature/hill_single_B.gltf" id="10_56ndl"]
+[ext_resource type="PackedScene" uid="uid://x0nwkb7uq7kv" path="res://assets/medieval_village/gltf/decoration/nature/hill_single_C.gltf" id="11_fkb14"]
+[ext_resource type="PackedScene" uid="uid://cixqucxmve11" path="res://assets/medieval_village/gltf/decoration/nature/mountain_A.gltf" id="12_j24mx"]
+[ext_resource type="PackedScene" uid="uid://b3gt311qpbu1s" path="res://assets/medieval_village/gltf/decoration/nature/mountain_A_grass.gltf" id="13_vjjk8"]
+[ext_resource type="PackedScene" uid="uid://woakxoulbg6v" path="res://assets/medieval_village/gltf/decoration/nature/mountain_A_grass_trees.gltf" id="14_scu7h"]
+[ext_resource type="PackedScene" uid="uid://qo7mnw4gkntd" path="res://assets/medieval_village/gltf/decoration/nature/mountain_B.gltf" id="15_1xxr4"]
+[ext_resource type="PackedScene" uid="uid://bt011r3x17pep" path="res://assets/medieval_village/gltf/decoration/nature/mountain_B_grass.gltf" id="16_1cfqm"]
+[ext_resource type="PackedScene" uid="uid://bvih4l2fnxgij" path="res://assets/medieval_village/gltf/decoration/nature/mountain_B_grass_trees.gltf" id="17_cwo1y"]
+[ext_resource type="PackedScene" uid="uid://blx3x4oqmrdj7" path="res://assets/medieval_village/gltf/decoration/nature/mountain_C.gltf" id="18_mgb3n"]
+[ext_resource type="PackedScene" uid="uid://b3a1bgq3ofmqu" path="res://assets/medieval_village/gltf/decoration/nature/mountain_C_grass.gltf" id="19_v7sp0"]
+[ext_resource type="PackedScene" uid="uid://5xhwawqee1vj" path="res://assets/medieval_village/gltf/decoration/nature/mountain_C_grass_trees.gltf" id="20_ldows"]
+[ext_resource type="PackedScene" uid="uid://but0nryg26mmr" path="res://assets/medieval_village/gltf/decoration/nature/rock_single_A.gltf" id="21_yxocn"]
+[ext_resource type="PackedScene" uid="uid://bgrqsmomcyuvi" path="res://assets/medieval_village/gltf/decoration/nature/rock_single_B.gltf" id="22_73vj3"]
+[ext_resource type="PackedScene" uid="uid://cdhva2shggrgh" path="res://assets/medieval_village/gltf/decoration/nature/rock_single_C.gltf" id="23_7whub"]
+[ext_resource type="PackedScene" uid="uid://d168r4n3gt6ml" path="res://assets/medieval_village/gltf/decoration/nature/rock_single_D.gltf" id="24_sae1y"]
+[ext_resource type="PackedScene" uid="uid://bhr26k77jxmn" path="res://assets/medieval_village/gltf/decoration/nature/rock_single_E.gltf" id="25_so02s"]
+[ext_resource type="PackedScene" uid="uid://bha5hvb5w566j" path="res://assets/medieval_village/gltf/decoration/nature/trees_A_cut.gltf" id="26_i17g1"]
+[ext_resource type="PackedScene" uid="uid://iyq2am6w0f6r" path="res://assets/medieval_village/gltf/decoration/nature/trees_A_large.gltf" id="27_3ogfw"]
+[ext_resource type="PackedScene" uid="uid://3yb232kfk01r" path="res://assets/medieval_village/gltf/decoration/nature/trees_A_medium.gltf" id="28_0djsl"]
+[ext_resource type="PackedScene" uid="uid://cfb7fwar35y0n" path="res://assets/medieval_village/gltf/decoration/nature/trees_A_small.gltf" id="29_f3pq2"]
+[ext_resource type="PackedScene" uid="uid://bwtrs401og6qe" path="res://assets/medieval_village/gltf/decoration/nature/trees_B_cut.gltf" id="30_8dkm8"]
+[ext_resource type="PackedScene" uid="uid://bdamo62ydcwu5" path="res://assets/medieval_village/gltf/decoration/nature/trees_B_large.gltf" id="31_kdlna"]
+[ext_resource type="PackedScene" uid="uid://do2wbtvt517ir" path="res://assets/medieval_village/gltf/decoration/nature/trees_B_medium.gltf" id="32_fb1ir"]
+[ext_resource type="PackedScene" uid="uid://dbcsqovxagjhx" path="res://assets/medieval_village/gltf/decoration/nature/trees_B_small.gltf" id="33_wgoil"]
+[ext_resource type="PackedScene" uid="uid://evwy3dybinit" path="res://assets/medieval_village/gltf/decoration/nature/tree_single_A.gltf" id="34_v2awl"]
+[ext_resource type="PackedScene" uid="uid://x0bnw7o0pi55" path="res://assets/medieval_village/gltf/decoration/nature/tree_single_A_cut.gltf" id="35_p1lso"]
+[ext_resource type="PackedScene" uid="uid://3cygrbqsknlx" path="res://assets/medieval_village/gltf/decoration/nature/tree_single_B.gltf" id="36_a0mqv"]
+[ext_resource type="PackedScene" uid="uid://cwgu2abxpji3a" path="res://assets/medieval_village/gltf/decoration/nature/tree_single_B_cut.gltf" id="37_sxhat"]
+[ext_resource type="PackedScene" uid="uid://bvd1k3w8u3a2t" path="res://assets/medieval_village/gltf/decoration/nature/waterlily_A.gltf" id="38_gty30"]
+[ext_resource type="PackedScene" uid="uid://uqf1e21lmch0" path="res://assets/medieval_village/gltf/decoration/nature/waterlily_B.gltf" id="39_7ie2g"]
+[ext_resource type="PackedScene" uid="uid://cgym2y4fihahm" path="res://assets/medieval_village/gltf/decoration/nature/waterplant_A.gltf" id="40_h4ist"]
+[ext_resource type="PackedScene" uid="uid://x4l856q8gjy2" path="res://assets/medieval_village/gltf/decoration/nature/waterplant_B.gltf" id="41_cblmn"]
+[ext_resource type="PackedScene" uid="uid://d1rjw77v44" path="res://assets/medieval_village/gltf/decoration/nature/waterplant_C.gltf" id="42_n1sqk"]
+[ext_resource type="PackedScene" uid="uid://dvftggmtliw0y" path="res://assets/medieval_village/gltf/decoration/props/barrel.gltf" id="43_aceql"]
+[ext_resource type="PackedScene" uid="uid://4t7r8jf6w85i" path="res://assets/medieval_village/gltf/decoration/props/bucket_arrows.gltf" id="44_u0bed"]
+[ext_resource type="PackedScene" uid="uid://dqpv1p4ge181c" path="res://assets/medieval_village/gltf/decoration/props/bucket_empty.gltf" id="45_plrpd"]
+[ext_resource type="PackedScene" uid="uid://dxsq6ylr4xgqc" path="res://assets/medieval_village/gltf/decoration/props/bucket_water.gltf" id="46_0j8hb"]
+[ext_resource type="PackedScene" uid="uid://b3512c781r7i4" path="res://assets/medieval_village/gltf/decoration/props/crate_A_big.gltf" id="47_jxp5l"]
+[ext_resource type="PackedScene" uid="uid://c1mm2jkvjsxkr" path="res://assets/medieval_village/gltf/decoration/props/crate_A_small.gltf" id="48_leeno"]
+[ext_resource type="PackedScene" uid="uid://b6ixmhupyoeod" path="res://assets/medieval_village/gltf/decoration/props/crate_B_big.gltf" id="49_lc26f"]
+[ext_resource type="PackedScene" uid="uid://cs65b2uon8bhc" path="res://assets/medieval_village/gltf/decoration/props/crate_B_small.gltf" id="50_goqsu"]
+[ext_resource type="PackedScene" uid="uid://c4ekdw8ve8owr" path="res://assets/medieval_village/gltf/decoration/props/crate_long_A.gltf" id="51_0wpca"]
+[ext_resource type="PackedScene" uid="uid://po85jccgbqit" path="res://assets/medieval_village/gltf/decoration/props/crate_long_B.gltf" id="52_fa11v"]
+[ext_resource type="PackedScene" uid="uid://cr7de6qd8xet3" path="res://assets/medieval_village/gltf/decoration/props/crate_long_C.gltf" id="53_px75t"]
+[ext_resource type="PackedScene" uid="uid://bf38avv1rsama" path="res://assets/medieval_village/gltf/decoration/props/crate_long_empty.gltf" id="54_vtlgh"]
+[ext_resource type="PackedScene" uid="uid://d7hamxao6v8" path="res://assets/medieval_village/gltf/decoration/props/crate_open.gltf" id="55_0501b"]
+[ext_resource type="PackedScene" uid="uid://cswrh2g0jakjf" path="res://assets/medieval_village/gltf/decoration/props/flag_blue.gltf" id="56_wgtf7"]
+[ext_resource type="PackedScene" uid="uid://cqovsjjac1hor" path="res://assets/medieval_village/gltf/decoration/props/flag_green.gltf" id="57_um4bw"]
+[ext_resource type="PackedScene" uid="uid://y6383hks1jpa" path="res://assets/medieval_village/gltf/decoration/props/flag_red.gltf" id="58_jhucm"]
+[ext_resource type="PackedScene" uid="uid://dscylckdl27ak" path="res://assets/medieval_village/gltf/decoration/props/flag_yellow.gltf" id="59_i1fgn"]
+[ext_resource type="PackedScene" uid="uid://clw0dhpq3scsh" path="res://assets/medieval_village/gltf/decoration/props/ladder.gltf" id="60_xlq6k"]
+[ext_resource type="PackedScene" uid="uid://p8jkey4y6ta1" path="res://assets/medieval_village/gltf/decoration/props/pallet.gltf" id="61_643ht"]
+[ext_resource type="PackedScene" uid="uid://c5aoycy6qxg2s" path="res://assets/medieval_village/gltf/decoration/props/resource_lumber.gltf" id="62_ikyco"]
+[ext_resource type="PackedScene" uid="uid://d3r53pah0m77" path="res://assets/medieval_village/gltf/decoration/props/resource_stone.gltf" id="63_pd1hy"]
+[ext_resource type="PackedScene" uid="uid://b6cmowci1ug83" path="res://assets/medieval_village/gltf/decoration/props/sack.gltf" id="64_wik8v"]
+[ext_resource type="PackedScene" uid="uid://dqd27uxl3idte" path="res://assets/medieval_village/gltf/decoration/props/target.gltf" id="65_2erw4"]
+[ext_resource type="PackedScene" uid="uid://den08fpxq552i" path="res://assets/medieval_village/gltf/decoration/props/tent.gltf" id="66_a0rk0"]
+[ext_resource type="PackedScene" uid="uid://dbv7bnjsu8mjg" path="res://assets/medieval_village/gltf/decoration/props/weaponrack.gltf" id="67_diavm"]
+[ext_resource type="PackedScene" uid="uid://d3v27acnyk4fu" path="res://assets/medieval_village/gltf/decoration/props/wheelbarrow.gltf" id="68_8mdn4"]
+
+[node name="DecorationLibrary" type="Node3D" unique_id=185091046]
+
+[node name="cloud_big2" parent="." unique_id=829429727 instance=ExtResource("1_64tjs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="cloud_small2" parent="." unique_id=1767302956 instance=ExtResource("2_50mxb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="hills_A2" parent="." unique_id=400279281 instance=ExtResource("3_dvtoq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="hills_A_trees2" parent="." unique_id=658364344 instance=ExtResource("4_b28u7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="hills_B2" parent="." unique_id=1137672188 instance=ExtResource("5_mxa05")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="hills_B_trees2" parent="." unique_id=1301318460 instance=ExtResource("6_5mfqb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="hills_C2" parent="." unique_id=607636086 instance=ExtResource("7_xx5te")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="hills_C_trees2" parent="." unique_id=687485989 instance=ExtResource("8_ohnfp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="hill_single_A2" parent="." unique_id=312140671 instance=ExtResource("9_djpkc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="hill_single_B2" parent="." unique_id=1830312292 instance=ExtResource("10_56ndl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="hill_single_C2" parent="." unique_id=108836863 instance=ExtResource("11_fkb14")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="mountain_A2" parent="." unique_id=1729421064 instance=ExtResource("12_j24mx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="mountain_A_grass2" parent="." unique_id=734882915 instance=ExtResource("13_vjjk8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="mountain_A_grass_trees2" parent="." unique_id=528489120 instance=ExtResource("14_scu7h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="mountain_B2" parent="." unique_id=1917200428 instance=ExtResource("15_1xxr4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="mountain_B_grass2" parent="." unique_id=1626506617 instance=ExtResource("16_1cfqm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="mountain_B_grass_trees2" parent="." unique_id=1636281938 instance=ExtResource("17_cwo1y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="mountain_C2" parent="." unique_id=2099693817 instance=ExtResource("18_mgb3n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="mountain_C_grass2" parent="." unique_id=1315565362 instance=ExtResource("19_v7sp0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="mountain_C_grass_trees2" parent="." unique_id=682835827 instance=ExtResource("20_ldows")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="rock_single_A2" parent="." unique_id=432037585 instance=ExtResource("21_yxocn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="rock_single_B2" parent="." unique_id=885699098 instance=ExtResource("22_73vj3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="rock_single_C2" parent="." unique_id=2082105060 instance=ExtResource("23_7whub")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="rock_single_D2" parent="." unique_id=1444274209 instance=ExtResource("24_sae1y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="rock_single_E2" parent="." unique_id=772825089 instance=ExtResource("25_so02s")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="trees_A_cut2" parent="." unique_id=1737510026 instance=ExtResource("26_i17g1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="trees_A_large2" parent="." unique_id=350314576 instance=ExtResource("27_3ogfw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="trees_A_medium2" parent="." unique_id=610953029 instance=ExtResource("28_0djsl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="trees_A_small2" parent="." unique_id=356042143 instance=ExtResource("29_f3pq2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="trees_B_cut2" parent="." unique_id=268530576 instance=ExtResource("30_8dkm8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="trees_B_large2" parent="." unique_id=684701958 instance=ExtResource("31_kdlna")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="trees_B_medium2" parent="." unique_id=57281517 instance=ExtResource("32_fb1ir")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="trees_B_small2" parent="." unique_id=156228635 instance=ExtResource("33_wgoil")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="tree_single_A2" parent="." unique_id=1815503344 instance=ExtResource("34_v2awl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="tree_single_A_cut2" parent="." unique_id=603729460 instance=ExtResource("35_p1lso")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="tree_single_B2" parent="." unique_id=173998210 instance=ExtResource("36_a0mqv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="tree_single_B_cut2" parent="." unique_id=1794074277 instance=ExtResource("37_sxhat")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="waterlily_A2" parent="." unique_id=2017783471 instance=ExtResource("38_gty30")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="waterlily_B2" parent="." unique_id=1933905551 instance=ExtResource("39_7ie2g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="waterplant_A2" parent="." unique_id=1253913131 instance=ExtResource("40_h4ist")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="waterplant_B2" parent="." unique_id=795793045 instance=ExtResource("41_cblmn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="waterplant_C2" parent="." unique_id=383743991 instance=ExtResource("42_n1sqk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="barrel2" parent="." unique_id=562542730 instance=ExtResource("43_aceql")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="bucket_arrows2" parent="." unique_id=821473335 instance=ExtResource("44_u0bed")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="bucket_empty2" parent="." unique_id=1182290209 instance=ExtResource("45_plrpd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="bucket_water2" parent="." unique_id=1524371327 instance=ExtResource("46_0j8hb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="crate_A_big2" parent="." unique_id=1605896909 instance=ExtResource("47_jxp5l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="crate_A_small2" parent="." unique_id=657918514 instance=ExtResource("48_leeno")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="crate_B_big2" parent="." unique_id=1048508431 instance=ExtResource("49_lc26f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="crate_B_small2" parent="." unique_id=1298273679 instance=ExtResource("50_goqsu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="crate_long_A2" parent="." unique_id=1038078709 instance=ExtResource("51_0wpca")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="crate_long_B2" parent="." unique_id=1953071966 instance=ExtResource("52_fa11v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="crate_long_C2" parent="." unique_id=33300331 instance=ExtResource("53_px75t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="crate_long_empty2" parent="." unique_id=525897080 instance=ExtResource("54_vtlgh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="crate_open2" parent="." unique_id=1710434452 instance=ExtResource("55_0501b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="flag_blue2" parent="." unique_id=975505219 instance=ExtResource("56_wgtf7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="flag_green2" parent="." unique_id=202757488 instance=ExtResource("57_um4bw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="flag_red2" parent="." unique_id=1648279903 instance=ExtResource("58_jhucm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="flag_yellow2" parent="." unique_id=1778861929 instance=ExtResource("59_i1fgn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="ladder2" parent="." unique_id=1671528261 instance=ExtResource("60_xlq6k")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="pallet2" parent="." unique_id=960570694 instance=ExtResource("61_643ht")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="resource_lumber2" parent="." unique_id=730956866 instance=ExtResource("62_ikyco")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="resource_stone2" parent="." unique_id=927091284 instance=ExtResource("63_pd1hy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="sack2" parent="." unique_id=1981083095 instance=ExtResource("64_wik8v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="target2" parent="." unique_id=9776558 instance=ExtResource("65_2erw4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="tent2" parent="." unique_id=1738594481 instance=ExtResource("66_a0rk0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="weaponrack2" parent="." unique_id=2002744371 instance=ExtResource("67_diavm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
+
+[node name="wheelbarrow2" parent="." unique_id=1178969369 instance=ExtResource("68_8mdn4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.65700114, 1.1920929e-07, -0.24813557)
