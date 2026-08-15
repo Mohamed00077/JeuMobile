@@ -8,6 +8,7 @@ var is_invincible := false
 
 @onready var anim_player: AnimationPlayer = $Barbarian/AnimationPlayer
 @onready var barbarian: Node3D = $Barbarian
+@onready var camera_pivot: Node3D = $CameraPivot
 
 var is_attacking := false
 
@@ -34,7 +35,10 @@ func _physics_process(delta: float) -> void:
 		if joystick_output.length() > 0.1:
 			input_dir = joystick_output
 
-	var direction := (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
+	var camera_basis: Basis = camera_pivot.global_transform.basis
+	var direction := (camera_basis * Vector3(input_dir.x, 0, input_dir.y))
+	direction.y = 0
+	direction = direction.normalized()
 
 	# On bloque le déplacement pendant l'attaque
 	if not is_attacking:

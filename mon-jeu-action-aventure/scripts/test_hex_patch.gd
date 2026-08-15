@@ -2,7 +2,7 @@
 extends EditorScript
 
 const TILE_NAME := "hex_grass"
-const PATCH_SIZE := 20
+const PATCH_SIZE := 420
 
 
 func _run() -> void:
@@ -36,11 +36,14 @@ func _run() -> void:
 
 	print("ID trouvé pour '%s' : %d" % [TILE_NAME, tile_id])
 
-	for x in range(PATCH_SIZE):
-		for y in range(PATCH_SIZE):
+	var count := 0
+	for y in range(PATCH_SIZE):
+		var row_offset: int = int(floor(y / 2.0))
+		for x in range(-row_offset, PATCH_SIZE - row_offset):
 			grid.set_cell_HEX(x, y, tile_id)
+			count += 1
 
-	print("Zone de %dx%d tuiles placée (%d hexagones)." % [PATCH_SIZE, PATCH_SIZE, PATCH_SIZE * PATCH_SIZE])
+	print("Zone rectangulaire de %d lignes placée (%d hexagones)." % [PATCH_SIZE, count])
 
 
 func _list_names(lib: MeshLibrary) -> String:
